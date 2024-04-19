@@ -1,6 +1,6 @@
 /** @format */
 
-const allUsers = [
+const myUsers = [
 	{
 		name: "Moore Hensley",
 		gender: "male",
@@ -45,5 +45,5 @@ const getTotalBalanceByGender = (users, gender) => {
 	}, 0);
 };
 
-console.log(getTotalBalanceByGender(allUsers, "male"));
-console.log(getTotalBalanceByGender(allUsers, "female"));
+console.log(getTotalBalanceByGender(myUsers, "male"));
+console.log(getTotalBalanceByGender(myUsers, "female"));
