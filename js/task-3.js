@@ -1,10 +1,10 @@
 /** @format */
 
 const sortByDescendingFriendCount = (users) => {
-	let getAmountFriendsReversed = users.sort(
+	let getAmountFriendsReversed = users.toSorted(
 		(a, b) => b.friends.length - a.friends.length
 	);
-	return (getArrFriends = getAmountFriendsReversed.flatMap((user) => user.name));
+	return (getArrFriends = getAmountFriendsReversed.flatMap((user) => user));
 };
 
 console.log(

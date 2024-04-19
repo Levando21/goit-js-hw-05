@@ -1,7 +1,7 @@
 /** @format */
 
 const getUserNames = (users) => {
-	const getArrayNames = users.flatMap((user) => user.name);
+	const getArrayNames = users.map((user) => user.name);
 	return getArrayNames;
 };
 
